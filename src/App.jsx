@@ -32,8 +32,8 @@ function App() {
         <Route path="/chat" element={<ChatPage />} />
 
         <Route path="/company" element={<CompanyPage />} />
-        <Route path="/company/:companyId" element={<SingleCompanyPage />} />
-        <Route path="/tool/:toolId" element={<SingleToolPage />} />
+        <Route path="/company/:slug" element={<SingleCompanyPage />} />
+        <Route path="/tools/:slug" element={<SingleToolPage />} />
 
         <Route path="/userprofile/:userId" element={<UserProfilePage />} />
         <Route path="/favourite" element={<FavouritePage />} />
